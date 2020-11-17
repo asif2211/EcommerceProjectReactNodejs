@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import logo from "../../images/p1.jpg";
+import formatCurrency from '../../utils';
 import {
   Row,
   Image,
@@ -7,11 +8,11 @@ import {
   ProductDetail,
   H1,
   Price,
-  Rating,
   Anchor,
   H2,
   Span,
 } from "./style";
+import Rating from '../../components/Rating/Rating'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 import { bindActionCreators } from "redux";
@@ -30,6 +31,8 @@ class Products extends Component {
   componentDidMount() {
     this.props.requestApiData();
   }
+
+ 
   render() {
 
     console.log(this.state.products);
@@ -48,23 +51,7 @@ class Products extends Component {
                     {result.name}
                   </H1>
                 </Anchor>
-                <Rating className="rating">
-                  <Span>
-                    <FontAwesomeIcon icon={faStar} />
-                  </Span>
-                  <Span>
-                    <FontAwesomeIcon icon={faStar} />
-                  </Span>
-                  <Span>
-                    <FontAwesomeIcon icon={faStar} />
-                  </Span>
-                  <Span>
-                    <FontAwesomeIcon icon={faStar} />
-                  </Span>
-                  <Span>
-                    <FontAwesomeIcon icon={faStarHalfAlt} />
-                  </Span>
-                </Rating>
+                <Rating rating={result.rating} review = {result.numReviews}/>
                 <Price className="price">
                   <H2>{result.price}</H2>
                   <H2>{result.brand}</H2>
