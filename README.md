@@ -7,3 +7,6 @@ Complete shoping cart that have full of amazong funcitonality. It's developing i
 * link to styled components.
 * create header, main and footer
 * style elements
+
+** What's Being Used?
+* [react] :  for managing the presentation logic of application.
