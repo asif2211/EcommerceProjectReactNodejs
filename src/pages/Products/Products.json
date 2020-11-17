@@ -1,0 +1,115 @@
+{
+"product":[
+    {
+        "id": "1",
+        "createdAt": "2020-04-14T00:02:59.753Z",
+        "name": "Nike Slim Shirt",
+        "description": "high quality product",
+        "price": "116.00",
+        "category": "Pent",
+        "brand": "Nike",
+        "rating": 4.5,
+        "images": [
+            {
+                "id": "1",
+                "productId": "1",
+                "createdAt": "2020-04-14T17:02:48.574Z",
+                "imageUrl": "https://i.pinimg.com/originals/6b/eb/b9/6bebb9f9dc041f9740cd2e42bf5cabf6.jpg"
+            }
+           
+        ]
+    },
+    {
+        "id": "2",
+        "createdAt": "2020-04-14T02:59:34.055Z",
+        "name": "Adidas Fit Shirt",
+        "description": "high quality product",
+        "price": "353.00",
+        "category": "Pent",
+        "brand": "Nike",
+        "rating": 4.5,
+        "images": [
+            {
+                "id": "2",
+                "productId": "2",
+                "createdAt": "2020-04-13T22:30:56.090Z",
+                "imageUrl": "https://static-01.daraz.pk/p/345f95cf60f0359a8b4d36cebdf0ec15.jpg"
+            }
+           
+        ]
+    },
+    {
+        "id": "3",
+        "createdAt": "2020-04-14T09:47:53.490Z",
+        "name": "Lacoste Free Shirt",
+        "description": "high quality product",
+        "price": "101.00",
+        "category": "Pent",
+        "brand": "Lee",
+        "rating": 4.5,
+        "images": [
+            {
+                "id": "3",
+                "productId": "3",
+                "createdAt": "2020-04-13T21:17:38.390Z",
+                "imageUrl": "https://ae01.alicdn.com/kf/H5ec9c87c091b4d078b7cf5f536b2e310H/KYKU-Brand-City-T-shirt-Men-Graffiti-Funny-T-shirts-Black-T-shirts-3d-Pent-Tshirts.jpg_960x960.jpg"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "createdAt": "2020-04-14T08:29:10.348Z",
+        "name": "Nike Slim Pant",
+        "description": "high quality product",
+        "price": "640.00",
+        "category": "Pent",
+        "brand": "Nike",
+        "rating": 4.5,
+        "images": [
+            {
+                "id": "4",
+                "productId": "4",
+                "createdAt": "2020-04-14T08:20:02.481Z",
+                "imageUrl": "https://i.pinimg.com/originals/f6/11/bc/f611bc73956a04841f17557ba2d10ef7.jpg"
+            }
+           
+        ]
+    },
+    {
+        "id": "5",
+        "createdAt": "2020-04-14T20:36:00.408Z",
+        "name": "Puma Slim Pant",
+        "description": "high quality product",
+        "price": "254.00",
+        "category": "Pent",
+        "brand": "Lee",
+        "rating": 4.5,
+        "images": [
+            {
+                "id": "5",
+                "productId": "5",
+                "createdAt": "2020-04-14T16:56:11.769Z",
+                "imageUrl": "https://sc01.alicdn.com/kf/UTB8rcsoDhHEXKJk43Jeq6yeeXXa3.jpg"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "createdAt": "2020-04-13T22:40:38.976Z",
+        "name": "Adidas Fit Pant",
+        "description": "high quality product",
+        "price": "565.00",
+        "category": "Pent",
+        "brand": "Lee",
+        "rating": 4.5,
+        "images": [
+            {
+                "id": "6",
+                "productId": "6",
+                "createdAt": "2020-04-14T15:36:52.028Z",
+                "imageUrl": "https://qph.fs.quoracdn.net/main-qimg-ba23bc715a95bab4314b62eada994c5d"
+            }
+        ]
+    }
+]
+}

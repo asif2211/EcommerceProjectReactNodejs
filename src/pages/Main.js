@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { GridContainer, Header, Footer,MainContainer, LeftHeader,RightHeader,AnchorLinkRight,AnchorLeftHeader} from "./style";
+import Products from "./Products/Products";
 export default class Grid extends Component {
   render() {
     return (
-      <GridContainer className="grid-container">
+      <GridContainer>
         <Header>
           <LeftHeader>
             <AnchorLeftHeader href="#">amazona</AnchorLeftHeader>
@@ -14,13 +15,9 @@ export default class Grid extends Component {
           </RightHeader>
         </Header>
         <MainContainer>
-          <ul>
-            <li>product 1</li>
-            <li>product 1</li>
-            <li>product 1</li>
-            <li>product 1</li>
-          </ul>
+        <Products/>
         </MainContainer>
+        
         <Footer>Footer</Footer>
       </GridContainer>
     );
