@@ -5,17 +5,19 @@
         "createdAt": "2020-04-14T00:02:59.753Z",
         "name": "Nike Slim Shirt",
         "description": "high quality product",
-        "price": "116.00",
+        "price": "$103",
         "category": "Pent",
         "brand": "Nike",
         "rating": 4,
+        "countInStock": 10,
+        
         "numReviews": 10,
         "images": [
             {
                 "id": "1",
                 "productId": "1",
                 "createdAt": "2020-04-14T17:02:48.574Z",
-                "imageUrl": "https://ae01.alicdn.com/kf/HTB1GvfAMXXXXXbgXpXXq6xXFXXX5/men-clothing-Coat-Pant-Designs-Wedding-Suits-For-Men-Slim-Fit-Suits-Mens-Groom-Purple-Tuxedos.jpg_Q90.jpg_.webp"
+                "imageUrl": "/images/p1.jpg"
             }
            
         ]
@@ -25,17 +27,18 @@
         "createdAt": "2020-04-14T02:59:34.055Z",
         "name": "Adidas Fit Shirt",
         "description": "high quality product",
-        "price": "353.00",
+        "price": "$110",
         "category": "Pent",
         "brand": "Nike",
         "rating": 3.5,
         "numReviews": 10,
+        "countInStock": 20,
         "images": [
             {
                 "id": "2",
                 "productId": "2",
                 "createdAt": "2020-04-13T22:30:56.090Z",
-                "imageUrl": "https://static-01.daraz.pk/p/345f95cf60f0359a8b4d36cebdf0ec15.jpg"
+                "imageUrl": "/images/p2.jpg"
             }
            
         ]
@@ -45,17 +48,18 @@
         "createdAt": "2020-04-14T09:47:53.490Z",
         "name": "Lacoste Free Shirt",
         "description": "high quality product",
-        "price": "101.00",
+        "price": "$90",
         "category": "Pent",
         "brand": "Lee",
         "rating": 2.5,
         "numReviews": 10,
+        "countInStock": 13,
         "images": [
             {
                 "id": "3",
                 "productId": "3",
                 "createdAt": "2020-04-13T21:17:38.390Z",
-                "imageUrl": "https://qph.fs.quoracdn.net/main-qimg-279f3259923f7f88b9bea48d72d33aeb.webp"
+                "imageUrl": "/images/p3.jpg"
             }
         ]
     },
@@ -64,17 +68,18 @@
         "createdAt": "2020-04-14T08:29:10.348Z",
         "name": "Nike Slim Pant",
         "description": "high quality product",
-        "price": "640.00",
+        "price": "$120",
         "category": "Pent",
         "brand": "Nike",
         "rating": 3,
         "numReviews": 10,
+        "countInStock": 0,
         "images": [
             {
                 "id": "4",
                 "productId": "4",
                 "createdAt": "2020-04-14T08:20:02.481Z",
-                "imageUrl": "https://cdn.shopify.com/s/files/1/1231/6442/products/cottonworld-men-s-pants-men-s-97-cotton-3-lycra-black-custom-fit-pant-1380321198117_295x.jpg?v=1579020735"
+                "imageUrl": "/images/p4.jpg"
             }
            
         ]
@@ -84,17 +89,18 @@
         "createdAt": "2020-04-14T20:36:00.408Z",
         "name": "Puma Slim Pant",
         "description": "high quality product",
-        "price": "254.00",
+        "price": "$100",
         "category": "Pent",
         "brand": "Lee",
         "rating": 4.5,
         "numReviews": 10,
+        "countInStock": 15,
         "images": [
             {
                 "id": "5",
                 "productId": "5",
                 "createdAt": "2020-04-14T16:56:11.769Z",
-                "imageUrl": "https://i.pinimg.com/474x/58/04/19/580419e6131ce130a71a397ce26265bb.jpg"
+                "imageUrl": "/images/p5.jpg"
             }
         ]
     },
@@ -103,17 +109,18 @@
         "createdAt": "2020-04-13T22:40:38.976Z",
         "name": "Adidas Fit Pant",
         "description": "high quality product",
-        "price": "565.00",
+        "price": "$80",
         "category": "Pent",
         "brand": "Lee",
         "rating": 4.5,
         "numReviews": 10,
+        "countInStock": 11,
         "images": [
             {
                 "id": "6",
                 "productId": "6",
                 "createdAt": "2020-04-14T15:36:52.028Z",
-                "imageUrl": "https://stylesatlife.com/wp-content/uploads/2020/03/Designer-Formal-Shirt.jpg"
+                "imageUrl": "/images/p6.jpg"
             }
         ]
     }

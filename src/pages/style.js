@@ -45,7 +45,7 @@ export const Footer = styled.div`
   align-items:center;
   justify-content:center;
 `;
-export const AnchorLeftHeader = styled.a`
+export const AnchorLeftHeader = styled(Link)`
   color:white;
   text-decoration:none;
   padding:1rem;
@@ -55,7 +55,7 @@ export const AnchorLeftHeader = styled.a`
     color:#ff8000;
   }
 `;
- export const AnchorLinkRight = styled.a`
+ export const AnchorLinkRight = styled(Link)`
  color:white;
  text-decoration:none;
  padding:1rem;

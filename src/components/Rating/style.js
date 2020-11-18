@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const RatingNumber  = styled.div`
     display:flex;
     flex-direction:row;
-    justify-content:center;
+    
     
 `;
 export const Anchor  = styled.a`
@@ -16,7 +16,7 @@ export const Span  = styled.span`
    padding:.1rem;
 `;
 export const Review  = styled.span`
-   color:black;
+   color:gray;
    
 `;
 

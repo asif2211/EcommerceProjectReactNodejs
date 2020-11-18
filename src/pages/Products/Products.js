@@ -42,7 +42,7 @@ class Products extends Component {
           {this.state.products.map(result => (
              
               <Card key={result.id}>
-              <a href="product.html">
+              <a href={`/product/${result.id}`}>
                 <Image src={result.images[0].imageUrl} alt="logo" />
               </a>
               <ProductDetail>
@@ -51,7 +51,9 @@ class Products extends Component {
                     {result.name}
                   </H1>
                 </Anchor>
+                <div style={{marginLeft:'6rem',textAlign:'center'}}>
                 <Rating rating={result.rating} review = {result.numReviews}/>
+                </div>
                 <Price className="price">
                   <H2>{result.price}</H2>
                   <H2>{result.brand}</H2>

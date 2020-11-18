@@ -14,7 +14,7 @@ export const Image = styled.img`
   width:100%;
   max-width:29rem;
   border-radius:.5rem;
-  height:30rem;
+  
   
 `;
 export const Card = styled.div`

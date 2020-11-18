@@ -9,4 +9,4 @@ Complete shoping cart that have full of amazong funcitonality. It's developing i
 * style elements
 
 **What's Being Used?**
-* [react](https://reactjs.org/) :  for managing the presentation logic of application.
+* [react](https://www.npmjs.com/package/react) :  for managing the presentation logic of application.
