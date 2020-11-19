@@ -4,11 +4,22 @@ import store from './store'
 import {BrowserRouter as  Router, Switch,Route } from "react-router-dom";
 import Signin from './pages/User/Signin/Signin';
 import Main from './pages/Main';
-function App() {
-  return (
-    <Router>
+import React, { Component } from 'react';
+class App extends Component{
+  constructor(){
+    super();
+    this.state = {
+      apiResponse : '',
+    }
+  }
+  
+  render(){
+    console.log(this.state.apiResponse);
+    return(
+<Router>
       <Provider store={store}>
-      <Grid/>
+      <Main/>
+    <div>{this.state.apiResponse}</div>
       </Provider>
         
         
@@ -24,9 +35,10 @@ function App() {
        
       </Router>
     
-
-   
-  );
+    )
+  }
 }
+
+
 
 export default App;
