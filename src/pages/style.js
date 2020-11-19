@@ -51,6 +51,7 @@ export const AnchorLeftHeader = styled(Link)`
   padding:1rem;
   font-size:3rem;
   font-weight:bold;
+  cursor: pointer;
   &:hover{
     color:#ff8000;
   }

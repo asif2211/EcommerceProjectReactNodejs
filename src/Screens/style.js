@@ -16,7 +16,14 @@ export const Product = styled.div`
   
 `;
 export const AnchorLink = styled(Link)`
-  
+  text-decoration:none;
+  background-color: #f0c040;
+  height:100%;
+  border-radius:.5rem;
+  padding:1rem;
+  &:hover{
+      border:.1rem solid blueviolet;
+  }
 `;
 export const ProductImages = styled.div`
   padding: 2rem;
@@ -44,6 +51,7 @@ export const Image = styled.img`
   width: 100%;
   max-width: 29rem;
   border-radius: 0.5rem;
+  height:100%;  
 `;
 
 export const Name = styled.div`
@@ -104,4 +112,7 @@ export const Button = styled.button`
   padding: 0.6rem;
   border-radius: 0.5rem;
   border: 0.1rem solid #f0c040;
+  &:hover{
+      border:.1rem solid blueviolet;
+  }
 `;

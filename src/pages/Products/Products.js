@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../../images/p1.jpg";
+
 import formatCurrency from '../../utils';
 import {
   Row,
