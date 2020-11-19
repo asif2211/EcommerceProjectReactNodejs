@@ -1,7 +1,7 @@
 const express = require('express');
 const  data = require('./data.js');
 const app = express()
-const port = 30001;
+const port  = process.env.PORT ||30001
 
 
 app.get('/api/products', (req, res) => {
