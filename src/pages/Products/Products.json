@@ -1,128 +1,81 @@
 {
-"product":[
+"products":[
+    
     {
-        "id": "1",
-        "createdAt": "2020-04-14T00:02:59.753Z",
+        "id":1,
         "name": "Nike Slim Shirt",
-        "description": "high quality product",
-        "price": "$103",
-        "category": "Pent",
-        "brand": "Nike",
-        "rating": 4,
+        "category": "Shirts",
+        "image": "/images/p1.jpg",
+        "price": 120,
         "countInStock": 10,
-        
+        "brand": "Nike",
+        "rating": 4.5,
         "numReviews": 10,
-        "images": [
-            {
-                "id": "1",
-                "productId": "1",
-                "createdAt": "2020-04-14T17:02:48.574Z",
-                "imageUrl": "/images/p1.jpg"
-            }
-           
-        ]
-    },
-    {
-        "id": "2",
-        "createdAt": "2020-04-14T02:59:34.055Z",
+        "description": "high quality product"
+      },
+      {
+        "id":2,
         "name": "Adidas Fit Shirt",
-        "description": "high quality product",
-        "price": "$110",
-        "category": "Pent",
-        "brand": "Nike",
-        "rating": 3.5,
-        "numReviews": 10,
+        "category": "Shirts",
+        "image": "/images/p2.jpg",
+        "price": 100,
         "countInStock": 20,
-        "images": [
-            {
-                "id": "2",
-                "productId": "2",
-                "createdAt": "2020-04-13T22:30:56.090Z",
-                "imageUrl": "/images/p2.jpg"
-            }
-           
-        ]
-    },
-    {
-        "id": "3",
-        "createdAt": "2020-04-14T09:47:53.490Z",
-        "name": "Lacoste Free Shirt",
-        "description": "high quality product",
-        "price": "$90",
-        "category": "Pent",
-        "brand": "Lee",
-        "rating": 2.5,
+        "brand": "Adidas",
+        "rating": 4.0,
         "numReviews": 10,
-        "countInStock": 13,
-        "images": [
-            {
-                "id": "3",
-                "productId": "3",
-                "createdAt": "2020-04-13T21:17:38.390Z",
-                "imageUrl": "/images/p3.jpg"
-            }
-        ]
-    },
-    {
-        "id": "4",
-        "createdAt": "2020-04-14T08:29:10.348Z",
+        "description": "high quality product"
+      },
+      {
+        "id":3,
+        "name": "Lacoste Free Shirt'",
+        "category": "Shirts",
+        "image": "/images/p3.jpg",
+        "price": 220,
+        "countInStock": 20,
+        "brand": "Lacoste",
+        "rating": 4.8,
+        "numReviews": 17,
+        "description": "high quality product"
+      },
+      {
+        "id":3,
         "name": "Nike Slim Pant",
-        "description": "high quality product",
-        "price": "$120",
-        "category": "Pent",
-        "brand": "Nike",
-        "rating": 3,
-        "numReviews": 10,
-        "countInStock": 0,
-        "images": [
-            {
-                "id": "4",
-                "productId": "4",
-                "createdAt": "2020-04-14T08:20:02.481Z",
-                "imageUrl": "/images/p4.jpg"
-            }
-           
-        ]
-    },
-    {
-        "id": "5",
-        "createdAt": "2020-04-14T20:36:00.408Z",
-        "name": "Puma Slim Pant",
-        "description": "high quality product",
-        "price": "$100",
-        "category": "Pent",
-        "brand": "Lee",
-        "rating": 4.5,
-        "numReviews": 10,
+        "category": "Shirts",
+        "image": "/images/p4.jpg",
+        "price": 78,
         "countInStock": 15,
-        "images": [
-            {
-                "id": "5",
-                "productId": "5",
-                "createdAt": "2020-04-14T16:56:11.769Z",
-                "imageUrl": "/images/p5.jpg"
-            }
-        ]
-    },
-    {
-        "id": "6",
-        "createdAt": "2020-04-13T22:40:38.976Z",
-        "name": "Adidas Fit Pant",
-        "description": "high quality product",
-        "price": "$80",
-        "category": "Pent",
-        "brand": "Lee",
-        "rating": 4.5,
+        "brand": "Adidas",
+        "rating": 4.0,
         "numReviews": 10,
-        "countInStock": 11,
-        "images": [
-            {
-                "id": "6",
-                "productId": "6",
-                "createdAt": "2020-04-14T15:36:52.028Z",
-                "imageUrl": "/images/p6.jpg"
-            }
-        ]
-    }
+        "description": "high quality product"
+      }
+      ,
+      {
+        "id":4,
+        "name": "Adidas Fit Shirt",
+        "category": "Pants",
+        "image": "/images/p4.jpg",
+        "price": 100,
+        "countInStock": 20,
+        "brand": "Adidas",
+        "rating": 4.0,
+        "numReviews": 10,
+        "description": "high quality product"
+      }
+      ,
+      {
+        "id":5,
+        "name": "Adidas Fit Shirt",
+        "category": "Shirts",
+        "image": "/images/p2.jpg",
+        "price": 100,
+        "countInStock": 20,
+        "brand": "Adidas",
+        "rating": 4.0,
+        "numReviews": 10,
+        "description": "high quality product"
+      }
+        
+    
 ]
 }

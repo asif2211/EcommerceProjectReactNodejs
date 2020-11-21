@@ -8,9 +8,11 @@ export const Product = styled.div`
   justify-content: left ;
   gap:10rem;
   font-family:Arial, Helvetica, sans-serif;
+  width:100%;
   @media (min-width: 60rem) {
      justify-content:center;
      flex-wrap:wrap; 
+     width:100%;
      
   }
   

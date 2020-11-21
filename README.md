@@ -13,3 +13,4 @@ Complete shoping cart that have full of amazong funcitonality. It's developing i
 * [Cors](https://www.npmjs.com/package/cors) :  cors is node.js package used to communicate one application server to other and connect express middleware.
 * [bcryptjs](https://www.npmjs.com/package/bcryptjs) bcryptjs is used for encryption or hashing it used to convert any thing to random string.
 * [nodemon](https://www.npmjs.com/package/nodemon)  for server and client side webpack that restart/reload your express server when change in file is expected.
+* [redux-thunk](https://www.npmjs.com/package/redux-thunk)  used as middleware for async control, its send ajax request .

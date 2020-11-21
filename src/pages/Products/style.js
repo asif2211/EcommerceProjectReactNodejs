@@ -56,6 +56,10 @@ export const Rating  = styled.div`
 `;
 export const Anchor  = styled.a`
    text-decoration:none;
+   
+   &:hover{
+    color:#ff8000;
+   }
 `;
 export const Span  = styled.span`
    color:orange;
