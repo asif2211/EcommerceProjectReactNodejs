@@ -14,3 +14,4 @@ Complete shoping cart that have full of amazong funcitonality. It's developing i
 * [bcryptjs](https://www.npmjs.com/package/bcryptjs) bcryptjs is used for encryption or hashing it used to convert any thing to random string.
 * [nodemon](https://www.npmjs.com/package/nodemon)  for server and client side webpack that restart/reload your express server when change in file is expected.
 * [redux-thunk](https://www.npmjs.com/package/redux-thunk)  used as middleware for async control, its send ajax request .
+* [axios](https://www.digitalocean.com/community/tutorials/react-axios-react)  For making ajax request to the server .

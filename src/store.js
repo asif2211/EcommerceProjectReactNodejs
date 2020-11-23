@@ -1,14 +1,18 @@
-import { createStore, applyMiddleware } from "redux";
-import createSagaMiddleware from "redux-saga";
+import { createStore, applyMiddleware ,compose, combineReducers} from "redux";
+import thunk from 'redux-thunk'
+import data from './pages/Products/data'
+import { ProductListReducer} from './reducer/ProductReducer';
 
-import reducer from "./reducer";
-
-import mySaga from "./sagas"
-
+const intialstate = {};
+const reducer = combineReducers(
+    {
+        productList : ProductListReducer,
+    }
+)
 // create the saga middleware
-const sagaMiddleware = createSagaMiddleware();
+const composeEnhacer = window.__REDUX_DEVTOOLS_EXTENTION_COMPOSE__   || compose
+console.log(data.products)
 // mount it on the Store
-export default createStore(reducer, applyMiddleware(sagaMiddleware));
+export default createStore(reducer,intialstate,composeEnhacer(applyMiddleware(thunk)));
 
 // then run the saga
-sagaMiddleware.run(mySaga);
