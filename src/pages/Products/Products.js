@@ -36,8 +36,8 @@ class Products extends Component {
           <Row>
           {this.props.products.map((result) => (
             
-            <Card key={result.id}>
-              <a href={`/product/${result.id}`}>
+            <Card key={result._id}>
+              <a href={`/product/${result._id}`}>
                 <Image src={result.image} alt="logo" />
               </a>
               <ProductDetail>

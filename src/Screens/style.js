@@ -33,7 +33,7 @@ export const ProductImages = styled.div`
   font-family:Arial, Helvetica, sans-serif;
 `;
 
-export const ProductDetails = styled.div`
+export const ProductDet = styled.div`
   padding: 2rem;
   margin-top: 3rem;
   font-family:Arial, Helvetica, sans-serif;

@@ -15,3 +15,10 @@ Complete shoping cart that have full of amazong funcitonality. It's developing i
 11. [nodemon](https://www.npmjs.com/package/nodemon)  for server and client side webpack that restart/reload your express server when change in file is expected.
 12. [redux-thunk](https://www.npmjs.com/package/redux-thunk)  used as middleware for async control, its send ajax request .
 13. [axios](https://www.digitalocean.com/community/tutorials/react-axios-react)  For making ajax request to the server .
+
+**Getting started**
+In order to get started developing, you'll need to do a few things first.
+
+1. Install all of the node_modules required for the package. Depending on the computer's configuration, you may need to prefix this command with a sudo.
+npm install
+
